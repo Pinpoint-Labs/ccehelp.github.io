@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  background-color: #f8f9fa;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #e51e27;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #0b9444;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: #e51e27;
+  text-align: left;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #0b9444;
+  text-align: left;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: left;
+}
+
+p,
+ul,
+ol,
+li {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: left;
+}
+.remove-border {
+  &:hover {
+    box-shadow: unset;
+  }
+}
+
+img {
+  border: 1px solid #0b9444;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+img:hover {
+  box-shadow: 0 0 1px 0.5px #0b94446c;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0b9444;
+}
+
+.contents-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontents-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.75rem;
+}
+
+.table-of-contents-left {
+  background: #f3f7f7e3;
+  border-radius: 5px;
+  /* border-bottom: 1px solid #ccc; */
+  display: block;
+  float: left;
+  /* margin-left: 0.5em; */
+  margin-bottom: 0.75em;
+  /* max-width: 100%; */
+  /* padding: 0.75em; */
+  width: 100%;
+}
+
+.table-of-contents-right {
+  background: #f3f7f7e3;
+  border-radius: 5px;
+  /* border-bottom: 1px solid #ccc; */
+  display: block;
+  float: right;
+  /* margin-left: 0.5em; */
+  /* margin-bottom: 0.5em; */
+  /* max-width: 50%; */
+  /* padding: 0.75em; */
+  width: 100%;
+}
